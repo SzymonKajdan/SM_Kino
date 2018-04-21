@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161a2d">
+
+    <ImageView
+        android:id="@+id/aktlnosciZdjecie"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/aktulanosciData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/aktlnosciZdjecie"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/aktlnosciZdjecie"
+        android:textColor="@color/white"
+        android:text="aktulanosciData" />
+
+    <TextView
+        android:id="@+id/aktulanosciTytul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/aktulanosciData"
+        android:layout_below="@+id/aktulanosciData"
+        android:layout_marginTop="15dp"
+        android:text="aktulanosciTytul"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/aktualnosciOpis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/aktulanosciTytul"
+        android:layout_below="@+id/aktulanosciTytul"
+        android:layout_marginTop="31dp"
+        android:text="aktulanosciOpis"
+        android:textSize="15dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

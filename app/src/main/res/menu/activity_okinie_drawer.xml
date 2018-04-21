@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/strona_glowna"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Storna glowna" />
+        <item
+            android:id="@+id/aktualnosci"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Aktualnosci" />
+
+        <item
+            android:id="@+id/oferta"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Oferta" />
+        <item
+            android:id="@+id/gramy"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Co gramy" />
+        <item
+            android:id="@+id/cennik"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Cennik" />
+        <item
+            android:id="@+id/repertuar"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Repertuar" />
+        <item
+            android:id="@+id/galeria"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Galeria" />
+        <item
+            android:id="@+id/kontakt"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Kontakt" />
+    </group>
+
+</menu>

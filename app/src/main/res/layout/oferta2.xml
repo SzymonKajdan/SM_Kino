@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#161a2d">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="Vouchery na seanse kinowe w atrakcyjnych
+cenach (2D – 12zł, 3D – 15zł)
+
+Karnety kinowe z możliwością wykorzystania na dowolne seanse
+
+Pakiety kinowe (np. bilet + popcorn + napój + okulary)
+
+Karty wartościowe z możliwością zakupu biletów do Kina, na imprezy DK oraz Basen
+
+Seanse grupowe na indywidualne zamówienie
+
+Reklama przed seansami na ekranie kinowym oraz na telewizorach w holu kina i przy kasie
+
+Reklama w formie ekspozycji ulotek, plakatów, roll-upów i innych materiałów promocyjnych w holu kina i przy kasie
+
+Wynajem sal na konferencje, szkolenia, prezentacje, spotkania biznesowe z profesjonalnym wyposażeniem"
+        />
+</RelativeLayout>

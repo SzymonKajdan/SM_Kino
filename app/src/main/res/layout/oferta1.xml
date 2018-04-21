@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#161a2d">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="Filmy z aktualnego repertuaru, wartościowe i wyselekcjonowane dla danej grupy wiekowej
+
+Filmy spoza repertuaru, na specjalne zamówienie
+atrakcyjne ceny biletów na filmy 2D i 3D
+
+Bezpłatny wstęp dla opiekunów
+elastyczne terminy projekcji, dostosowane do potrzeb grupy
+
+Materiały edukacyjne do wybranych filmów
+Prelekcję przed wybranymi filmami, na specjalne zamówienie
+
+Pomoc przy wyborze repertuaru
+
+Miłą obsługę podczas wizyty w kinie" />
+</RelativeLayout>

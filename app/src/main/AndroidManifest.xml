@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.szymo.sm_kino">
+    //pozwlenia
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.example.szymo.sm_kino.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.szymo.sm_kino.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    //to musi byc
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyAdHQsiaKxsHwlMk78jb5zyFFqgr5O_dPU" />
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyAdHQsiaKxsHwlMk78jb5zyFFqgr5O_dPU" />
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StronaStartowa"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Aktulanosci"
+            android:label="@string/title_activity_aktulanosci"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Galeria"
+            android:label="@string/title_activity_galeria"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OKinie"
+            android:label="@string/title_activity_okinie"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Oferta"
+            android:label="@string/title_activity_oferta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CoGramy"
+            android:label="@string/title_activity_co_gramy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Repertuar"
+            android:label="@string/title_activity_repertuar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cennik"
+            android:label="@string/title_activity_cennik"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBGTsFNExPGRG7d0IiNaGkohBuA8QxjNOo" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Kontakt"
+            android:label="@string/title_activity_kontakt"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

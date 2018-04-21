@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SM_Kino</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aktulanosci">Aktulanosci</string>
+    <string name="Opis" />
+    <string name="artykulTytul">Gnomek i Spolka</string>
+    <string name="artykulOpis">Pytanie za Milion jak spedzic jutrzejszy poranek ?</string>
+    <string name="title_activity_galeria">Galeria</string>
+    <string name="info">Rezyseria :Kelly Asbury</string>
+    <string name="title_activity_okinie">OKinie</string>
+    <string name="title_activity_oferta">Oferta</string>
+    <string name="title_activity_co_gramy">CoGramy</string>
+    <string name="tytul">Kobiety Mafi</string>
+    <string name="kraj">Kraj Podrukcji : Polska</string>
+    <string name="title_activity_repertuar">Repertuar</string>
+    <string name="title_activity_cennik">Cennik</string>
+    <string name="title_activity_kontakt">Kontakt</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+</resources>
